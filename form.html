@@ -13,12 +13,70 @@
     <form>
         <div>
         <label style="color: white;">First Name:</label>
-        <input type="text" placeholder="John">
+        <input type="text" placeholder="John" required>
         </div>
         <br>
         <div>
         <label style="color: white;">Last Name:</label>
-        <input type="text" placeholder="Doe">
+        <input type="text" placeholder="Doe" required>
+        </div>
+        <br>
+        <div>
+        <label style="color: white;">Email:</label>
+        <input type="email" placeholder="john.doe@example.com" required>
+        </div>
+        <br>
+        <div>
+        <label style="color: white;">Interest Type:</label>
+        <select>
+            <option value="adoption">Adoption</option>
+            <option value="foster">Foster</option>
+            <option value="volunteer">Volunteer</option>
+        </select>
+        </div>
+        <p style="color: white;">Only fill out the availability section if you selected volunteer.</p>
+        <hr style ="border: 1px solid white; width: 100%;">
+        <label style="color:white">Availability:</label>
+        <br>
+        <div>
+        <label style="color:white">Sunday</label> 
+        <input type="checkbox">
+        </div>
+        <div>
+        <label style="color:white">Monday</label> 
+        <input type="checkbox">
+        </div>
+        <div>
+        <label style="color:white">Tuesday</label> 
+        <input type="checkbox">
+        </div>
+                <div>
+        <label style="color:white">Wednesday</label> 
+        <input type="checkbox">
+        </div>
+                <div>
+        <label style="color:white">Thursday</label> 
+        <input type="checkbox">
+        </div>
+                <div>
+        <label style="color:white">Friday</label> 
+        <input type="checkbox">
+        </div>
+                <div>
+        <label style="color:white">Saturday</label> 
+        <input type="checkbox">
+        </div>
+        <hr style ="border: 1px solid white; width: 100%;">
+        <br>
+        <label style="color:white">Do you have experience with pets? (This does not determine eligibility)</label> <input type="checkbox">
+        <br>
+        <br>
+        <div>
+        <label style="color:white">Please describe your experiences or anything else you would like us to know.</label>
+        </div>
+        <br>
+        <div>
+        <input type="text" style="width:300px; height:100px">
         </div>
         <br>
         <div>
@@ -28,7 +86,7 @@
         <div>
         <input type="reset">
         </div>
-
     </form>
+    <p style="color:white">Note: This is a fake website and does NOT collect any data provided. It is still recommended to use fake information.</p>
 </body>
 </html>
