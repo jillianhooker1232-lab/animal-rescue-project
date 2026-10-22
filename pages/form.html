@@ -1,1 +1,135 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html" title="Home">
+    <img src="images/logo.png" 
+    alt="Twin Cities Animal Rescue Logo" style="width:200px;height:200px"> 
+    </a>
+    <br>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+            <label>First Name:</label>
+            <input type="text" placeholder="John" required>
+            </div>
+            <br>
+            <div>
+            <label>Last Name:</label>
+            <input type="text" placeholder="Doe" required>
+            </div>
+            <br>
+            <div>
+            <label>Email:</label>
+            <input type="email" placeholder="john.doe@example.com" required>
+            </div>
+            <br>
+            <div>
+            <label>Interest Type:</label>
+            <select>
+                <option value="adoption">Adoption</option>
+                <option value="foster">Foster</option>
+                <option value="volunteer">Volunteer</option>
+            </select>
+            </div>
+        </fieldset>
+        <p>Only fill out the availability section if you selected volunteer.</p>
+        <fieldset>
+            <legend>Availability:</legend>
+            <div>
+            <label>Sunday</label> 
+            <input type="checkbox">
+            </div>
+            <div>
+            <label>Monday</label> 
+            <input type="checkbox">
+            </div>
+            <div>
+            <label>Tuesday</label> 
+            <input type="checkbox">
+            </div>
+            <div>
+            <label>Wednesday</label> 
+            <input type="checkbox">
+            </div>
+            <div>
+            <label>Thursday</label> 
+            <input type="checkbox">
+            </div>
+            <div>
+            <label>Friday</label> 
+            <input type="checkbox">
+            </div>
+            <div>
+            <label>Saturday</label> 
+            <input type="checkbox">
+            </div>
+        </fieldset>
+        <br>
+        <label>Do you have experience with pets? (This does not determine eligibility)</label> <input type="checkbox">
+        <br>
+        <br>
+        <div>
+        <label>Please describe your experiences or anything else you would like us to know.</label>
+        </div>
+        <br>
+        <div>
+        <textarea rows="6" cols="50"></textarea>
+        </div>
+        <br>
+        <div>
+        <input type="submit">
+        </div>
+        <br>
+        <div>
+        <input type="reset">
+        </div>
+    </form>
+    <hr>
+    <h1>-Navigation-</h1>
+    <table align="center">
+        <tr>
+            <td>
+                <figue> 
+                    <a href="index.html" title="Home">
+                    <img src="images/home.png" style="width:200px">
+                    </a>
+                    <figcaption>Home</figcaption>
+                </figue>
+            </td>
+            <td>
+                <figure>
+                    <a href="services.html" title="Services">
+                    <img src="images/services.png" style="width:200px">
+                    </a>
+                    <figcaption>Services</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <a href="about.html" title="About">
+                    <img src="images/about.png" style="width:200px">
+                    </a>
+                    <figcaption>About</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <a href="contact.html" title="Contact">
+                    <img src="images/contact.png" style="width:200px">
+                    </a>
+                    <figcaption>Contact</figcaption>
+                </figure>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</body>
+</html>
