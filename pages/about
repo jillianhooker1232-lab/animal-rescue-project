@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html" title="Home">
+    <img src="../images/logo.png" 
+    alt="Twin Cities Animal Rescue Logo" style="width:200px;height:200px"> 
+    </a>
+    <br>
+    <hr>
+    <h1>-Our Organization's Story-</h1>
+    <p>
+        Twin Cities Animal Rescue grew from a shared passion for helping 
+        animals and strengthening the bond between people and their pets. 
+        <br> What began with a commitment to helping animals in need has grown into a 
+        community-centered rescue dedicated to making a lasting difference.
+        <br> Every rescue story is different. Some animals arrive frightened or uncertain. 
+        Others need medical attention, behavioral support, or simply a safe place to decompress. 
+        <br> Through dedicated volunteers, foster families, adopters, donors, and community partners, 
+        we are able to meet those needs one animal at a time.
+        <br> We know that rescue doesn't end when an animal leaves our care. 
+        It continues through responsible adoption, education, community support, 
+        <br> and a commitment to helping families and animals succeed together.
+    </p>
+    <p>
+        Our goal is simple: rescue with compassion, adopt with purpose, 
+        and build a community where every animal has a chance to belong.
+    </p>
+    <picture> 
+        <source media="(min-width:1024px)" srcset="images/large.png" alt="Image of a man in a wheelchair walking a dog." style="color:white"> 
+        <img src="images/small.png" alt="Image of a man in a wheelchair walking a dog."> 
+    </picture> 
+    <hr>
+    <h1>-Our Core Values-</h1>
+    <h2>Compassion</h2>
+    <p>
+        We treat every animal with patience, kindness, and respect. 
+        <br> We recognize that each animal has a unique history, personality, and set of needs.
+    </p>
+    <h2>Second Chances</h2>
+    <p>
+        A difficult past should never define an animal's future. We believe in giving animals the opportunity 
+        <br> to heal, grow, and find the loving homes they deserve.
+    </p>
+    <h2>Responsible Rescue</h2>
+    <p>
+        We are committed to thoughtful, ethical rescue practices. Our work is centered on the well-being of 
+        <br> the animals and the long-term success of their placements.
+    </p>
+    <h2>Community</h2>
+    <p>
+        Animal rescue is a team effort. Volunteers, foster families, adopters, 
+        donors, veterinarians, businesses, and  
+        <br> fellow rescue organizations all play an important role 
+        in creating better outcomes for animals.
+    </p>
+    <h2>Lifelong Connections</h2>
+    <p>
+        Our mission isn't simply to find homes. It's to create lasting matches between animals and people 
+        <br> and to help build relationships that last a lifetime.
+    </p>
+    <hr>
+    <h1>-Partner Acknowledgments-</h1>
+    <h2>Paws & Claws Veterinary Center</h2>
+    <p>
+        Our veterinary partners help provide wellness exams, vaccinations, emergency care, 
+        <br>and medical treatment for animals entering our program. Their compassionate team plays 
+        <br>an important role in helping every rescue begin their journey toward a healthy new life.
+    </p>
+    <h2>Safe Haven Pet Supply Co.</h2>
+    <p>
+        Safe Haven Pet Supply helps keep our shelter stocked with food, bedding, toys, crates, and 
+        <br>other everyday essentials. Their generous support ensures our animals have a comfortable
+        <br>and enriching environment while they wait for their forever homes.
+    </p>
+    <h2>Hearts for Homeless Pets Foundation</h2>
+    <p>
+        Through community donations and fundraising support, Hearts for Homeless Pets Foundation helps 
+        <br>cover medical expenses and emergency care for animals with special needs. Their commitment
+        <br>helps us say “yes” to animals who might otherwise have nowhere to go.
+    </p>
+    <h2>Green Valley Boarding & Training</h2>
+    <p>
+        Green Valley provides temporary boarding and basic training support for dogs who need additional 
+        <br>time, structure, or socialization before adoption. Their team helps prepare our dogs for successful 
+        <br>transitions into their new families.
+    </p>
+    <h2>Community Pet Pantry</h2>
+    <p>
+        The Community Pet Pantry works with us to provide food and supplies to local families experiencing 
+        <br>temporary financial challenges. Together, we help keep pets with the people who love them and reduce 
+        <br>preventable shelter surrenders.
+    </p>
+    <h2>Our Community Volunteers</h2>
+    <p>
+        Behind every successful rescue is a community of dedicated volunteers. From fostering and transportation 
+        <br>to adoption events and fundraising, our volunteers make it possible for us to reach more animals and 
+        <br>families every day.
+    </p>
+    <p>
+        To all of our partners, supporters, fosters, adopters, and volunteers: thank you for helping us create brighter futures for animals in our community.   
+    </p>
+    <hr>
+    <h1>-Navigation-</h1>
+    <table align="center">
+        <tr>
+            <td>
+                <figue> 
+                    <a href="index.html" title="Home">
+                    <img src="../images/home.png" style="width:200px">
+                    </a>
+                    <figcaption>Home</figcaption>
+                </figue>
+            </td>
+            <td>
+                <figure>
+                    <a href="services.html" title="Services">
+                    <img src="../images/services.png" style="width:200px">
+                    </a>
+                    <figcaption>Services</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <a href="about.html" title="About">
+                    <img src="../images/about.png" style="width:200px">
+                    </a>
+                    <figcaption>About</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <a href="contact.html" title="Contact">
+                    <img src="../images/contact.png" style="width:200px">
+                    </a>
+                    <figcaption>Contact</figcaption>
+                </figure>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</body>
+</html>
